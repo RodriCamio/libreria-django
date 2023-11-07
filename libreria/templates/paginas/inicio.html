@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+
+{% block titulo %} Inicio {% endblock %}
+
+{% block contenido %}
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <h1>Bienvenidos al sitio de la libreria</h1>
+            <p>Vamos a empezar a ingresar libros.</p>
+            <a class="btn btn-outline-dark" href="{% url 'crear' %}" role="button">Agregar</a>
+            
+        </div>
+    </div>
+</div>
+    </div>
+</div>
+
+{% endblock %}
