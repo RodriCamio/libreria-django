@@ -24,6 +24,32 @@ Install using `pip`
 ```
 pip install -r requirements.txt
 ```
-## Example
+## Running the Application
+
+Before running the application we need to create the needed DB tables:
+
+    python manage.py migrate
+
+Now you can run the development web server:
+
+    python manage.py runserver
+
+To access the applications go to the URL <http://localhost:8000/>
+
+
+## Create user admin
+
+Now that we have run the application, we must create an administrator user.
+
+With the following command:
+
+``` 
+python manage.py createsuperuser 
+```
+
+To create a normal user (non super user), you must login to the admin page and
+create it: <http://localhost:8000/admin/>
 
 ## Documentation
+
+For more information, we recommend using the official Django [documentation](https://docs.djangoproject.com/en/4.2/)
