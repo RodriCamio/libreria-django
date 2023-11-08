@@ -38,21 +38,21 @@ To access the applications go to the URL <http://localhost:8000/>
 
 ## Example
 
-#### INICIO
+> Inicio
 
-![](https://drive.google.com/file/d/1x2i1CHuAoT9bIsx7QBuzKnlzMmO6YAh8/view?usp=drive_link)
+![](https://i.postimg.cc/nc7Yhc12/inicio.png)
 
-#### LIBROS
+> Libros
 
-![](https://drive.google.com/file/d/17ecTcNQMII9XHaOTxxaKEMktQ6loDVmo/view?usp=drive_link)
+![](https://i.postimg.cc/3xzTC1GY/Libros.png)
 
-#### NOSOTROS
+> Nosotros
 
-![](https://drive.google.com/file/d/1QYYiiTNG9z-ly-O-w67w8-neOkEfE0ja/view?usp=drive_link)
+![](https://i.postimg.cc/Qtx0BGMt/Nosotros.png)
 
-#### AGREGAR
+> Agregar
 
-![](https://drive.google.com/file/d/1QB_gYQtck3GpQcI6WFEw6X95r4ZjPCqd/view?usp=drive_link)
+![](https://i.postimg.cc/4yj5FYQ7/Agregar.png)
 
 ## Create user admin
 
