@@ -36,6 +36,23 @@ Now you can run the development web server:
 
 To access the applications go to the URL <http://localhost:8000/>
 
+## Example
+
+#### INICIO
+
+![](https://drive.google.com/file/d/1x2i1CHuAoT9bIsx7QBuzKnlzMmO6YAh8/view?usp=drive_link)
+
+#### LIBROS
+
+![](https://drive.google.com/file/d/17ecTcNQMII9XHaOTxxaKEMktQ6loDVmo/view?usp=drive_link)
+
+#### NOSOTROS
+
+![](https://drive.google.com/file/d/1QYYiiTNG9z-ly-O-w67w8-neOkEfE0ja/view?usp=drive_link)
+
+#### AGREGAR
+
+![](https://drive.google.com/file/d/1QB_gYQtck3GpQcI6WFEw6X95r4ZjPCqd/view?usp=drive_link)
 
 ## Create user admin
 
