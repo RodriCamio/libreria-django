@@ -1,3 +1,5 @@
+[![Python-testing](https://github.com/RodriCamio/libreria-django/actions/workflows/libreria.yml/badge.svg)](https://github.com/RodriCamio/libreria-django/actions/workflows/libreria.yml)
+
 # CRUD Project | libreria-django
 ![](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Flh6.googleusercontent.com%2FrU8dZ0x67y63AeujFhM79UG_I3ZagEqTmDffagrUVuBI5eXPHtW2Z7zP1KU1MLKtl0wU5eNS_QHU-9v3GUJgxlKYeAR1yKADY8xCj7xMrpL8z9Rr2Zde9_OGsmXTigvBr7DEWggV&f=1&nofb=1&ipt=41d6511b408e152125a5e68a606e2dfe7392ddccfb51cfcfae620f97e4b4412f&ipo=images)
 
