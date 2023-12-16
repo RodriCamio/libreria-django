@@ -1,0 +1,10 @@
+version: "3.9"
+services:
+  libreria:
+    build: .
+    volumes:
+      - .:/django
+    container_name: libreria-django
+    ports: 
+    - "8000:8000"
+    image: app/django
