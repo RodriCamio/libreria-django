@@ -30,6 +30,4 @@ sudo apt-get install -y jenkins
 # USE JENKINS WITHOUT SUDO
 sudo groupadd docker
 sudo usermod -aG docker jenkins
-newgrp docker 
-# docker run  -d -p 8080:8080 --name jenkins --restart=on-failure jenkins/jenkins:lts-jdk17 
-# docker exec -it jenkins cat /var/jenkins_home/secrets/initialAdminPassword
+newgrp docker
