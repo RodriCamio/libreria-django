@@ -5,7 +5,6 @@ pipeline {
     RepoDockerHub = 'rodricamio'
     NameContainer = 'libreria'
     NameImage = 'libreria-django-alpine'
-    
   }
 
   stages {
