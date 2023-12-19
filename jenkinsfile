@@ -6,7 +6,6 @@ pipeline {
     NameContainer = 'libreria'
     NameImage = 'libreria-django-alpine'
   }
-
   stages {
     stage('Build'){
       steps{
