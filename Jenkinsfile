@@ -29,4 +29,5 @@ pipeline {
         sh "docker push ${env.RepoDockerHub}/${env.NameImage}:${env.BUILD-NUMBER} "
       }
     }
+  }
 }
