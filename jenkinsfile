@@ -8,11 +8,6 @@ pipeline {
   }
 
   stages {
-    stage('Login to Dockerhub'){
-      steps{
-        sh "echo $DOCKERHUB_CREDENCIALS_PSW | docker login -u $DOCKERHUB_CREDENCIALS_USR --password-stdin "
-      }
-    }
     stage('Build'){
       steps{
         sh "docker build -t ${env.RepoDockerHub}/${env.NameImage}:${env.BUILD_NUMBER} ."
@@ -33,6 +28,11 @@ pipeline {
     //     sh "docker rm ${env.NameContainer}-${env.BUILD_NUMBER}  "
     //   }
     // }
+    stage('Login to Dockerhub'){
+      steps{
+        sh "echo $DOCKERHUB_CREDENCIALS_PSW | docker login -u $DOCKERHUB_CREDENCIALS_USR --password-stdin "
+      }
+    }
     stage('Push Image to Dockerhub'){
       steps{
         sh "docker push ${env.RepoDockerHub}/${env.NameImage}:${env.BUILD_NUMBER} "
