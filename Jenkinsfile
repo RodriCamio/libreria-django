@@ -16,12 +16,12 @@ pipeline {
     }
     stage('Run Image'){
       steps{
-        sh "docker run -d -p 8080:8080 --name ${env.NameContainer} ${env.RepoDockerHub}/${env.NameImage}:${env.BUILD_NUMBER} "
+        sh "docker run -d -p 8000:8000 --name ${env.NameContainer} ${env.RepoDockerHub}/${env.NameImage}:${env.BUILD_NUMBER} "
       }
     }
     stage('Login to Dockerhub'){
       steps{
-        sh "echo $DOCKERHUB_CREDENCIALS_PSW | docker login -u $DOCKERHUB_CREDENCIALS_USR --password-stdin "
+        sh "echo $DOCKERHUB_CREDENCIALS_PSW | docker login -u $DOCKERHUB_CREDENCIALS --password-stdin "
       }
     }
     stage('Push Image to Dockerhub'){
