@@ -16,7 +16,7 @@ pipeline {
     }
     stage('Run Image'){
       steps{
-        sh "docker run -d -p 8000:8000 --name ${env.NameContainer} ${env.RepoDockerHub}/${env.NameImage}:${env.BUILD_NUMBER} "
+        sh "docker run -d --rm -p 8000:8000 --name ${env.NameContainer} ${env.RepoDockerHub}/${env.NameImage}:${env.BUILD_NUMBER} "
       }
     }
     stage('Login to Dockerhub'){
