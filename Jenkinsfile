@@ -11,12 +11,12 @@ pipeline {
   stages {
     stage('Build'){
       steps{
-        sh "docker build -t ${env.RepoDockerHub}/${env.NameImage}:${env.BUILD-NUMBER} ."
+        sh "docker build -t ${env.RepoDockerHub}/${env.NameImage}:${env.BUILD_NUMBER} ."
       }
     }
     stage('Run Image'){
       steps{
-        sh "docker run -d -p 8080:8080 --name ${env.NameContainer} ${env.RepoDockerHub}/${env.NameImage}:${env.BUILD-NUMBER} "
+        sh "docker run -d -p 8080:8080 --name ${env.NameContainer} ${env.RepoDockerHub}/${env.NameImage}:${env.BUILD_NUMBER} "
       }
     }
     stage('Login to Dockerhub'){
@@ -26,7 +26,7 @@ pipeline {
     }
     stage('Push Image to Dockerhub'){
       steps{
-        sh "docker push ${env.RepoDockerHub}/${env.NameImage}:${env.BUILD-NUMBER} "
+        sh "docker push ${env.RepoDockerHub}/${env.NameImage}:${env.BUILD_NUMBER} "
       }
     }
   }
